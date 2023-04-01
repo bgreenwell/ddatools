@@ -71,3 +71,8 @@ def load_bank():
 def load_credit():
     """Default of credit card clients (UCI)"""
     return read_csv(resource_filename("ddatools", "data/credit.csv"))
+
+
+def load_hotel():
+    """Hotel booking data (Kaggle)"""
+    return read_csv(resource_filename("ddatools", "data/hotel.csv"))
